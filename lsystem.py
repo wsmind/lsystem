@@ -37,7 +37,6 @@ def main():
     assert(first_iteration == "AB")
 
     more_iterations = grow(test_plant, 7)
-    print(more_iterations)
     assert(more_iterations == "ABAABABAABAABABAABABAABAABABAABAAB")
 
 if __name__ == '__main__':
